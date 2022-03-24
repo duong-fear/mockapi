@@ -10,7 +10,7 @@ app.get("/", function (req, res) {
     res.send(payload[req.path]);
 });
 
-app.get("/", function (req, res) {
+app.get("/game/2DPM", function (req, res) {
     res.send(payload[req.path]);
 });
 
