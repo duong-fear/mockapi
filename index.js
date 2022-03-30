@@ -6,11 +6,15 @@ var app = express();
 app.use(express.json());
 app.use(express.static('public'));
 
-app.get("/", function (req, res) {
+app.get("/api", function (req, res) {
     res.send(payload[req.path]);
 });
 
-app.get("/game/2DPM", function (req, res) {
+app.get("/api/game/2DPM", function (req, res) {
+    res.send(payload[req.path]);
+});
+
+app.get("/api/init", function (req, res) {
     res.send(payload[req.path]);
 });
 
