@@ -60,6 +60,22 @@ const payload = {
             },
         ]
     },
+    "/api/me": {
+        uid: 1348609886,
+        address: "0xcc33B3A9cC0c15Fd669f5bdCD8d66bb6e808eBB3",
+        balance: "41.381442410775089207",
+        bio: "Lol !",
+        name: "Mr Bean",
+        id: "mr_bean",
+        owned_products: [0, 1, 4],
+        avatar: "https://placekitten.com/300/300",
+        avatar_hash: "9efb03360374af06d044c9e7a7382e61",
+        socials: {
+            google: "mrbean@gmail.com",
+            twitter: "@realMrBean",
+            telegram: "@mrbeantg",
+        },
+    }
 }
 
 export default payload;
