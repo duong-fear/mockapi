@@ -62,7 +62,7 @@ const payload = {
     },
     "/api/hub_data": [
         {
-            id: 1,
+            id: "1",
             name: "Clucking Hell",
             preview: "https://placekitten.com/200/250?image=1",
             preview_hash: "a85032fcba6a6392a35f5c2c87449730",
@@ -72,7 +72,7 @@ const payload = {
             maintenance: true,
         },
         {
-            id: 2,
+            id: "2",
             name: "The Crypt",
             preview: "https://placekitten.com/200/250?image=2",
             preview_hash: "b24d816da24a4077b9c812c3cc46b275",
@@ -82,7 +82,7 @@ const payload = {
             maintenance: false,
         },
         {
-            id: 3,
+            id: "3",
             name: "Fear Museum",
             preview: "https://placekitten.com/200/250?image=3",
             preview_hash: "87b3d1c3c4e00a0b71d9963c89a74988",
@@ -92,7 +92,7 @@ const payload = {
             maintenance: false,
         },
         {
-            id: 4,
+            id: "4",
             name: "Wolf Arena",
             preview: "https://placekitten.com/200/250?image=4",
             preview_hash: "9dbbe4d8988f868173f6ad9ea8b60a19",
@@ -102,7 +102,7 @@ const payload = {
             maintenance: false,
         },
         {
-            id: 5,
+            id: "5",
             name: "Fear Dungeon",
             preview: "https://placekitten.com/200/250?image=5",
             preview_hash: "91903e676cd3fdf6df6fcb9ecc0117dc",
