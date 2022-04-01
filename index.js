@@ -18,6 +18,10 @@ app.get("/api/init", function (req, res) {
     res.send(payload[req.path]);
 });
 
+app.get("/api/hub_data", function (req, res) {
+    res.send(payload[req.path]);
+});
+
 app.get("/api/me", function (req, res) {
     res.send(payload[req.path]);
 });
