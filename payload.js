@@ -116,7 +116,7 @@ const payload = {
         uid: 1348609886,
         address: "0xcc33B3A9cC0c15Fd669f5bdCD8d66bb6e808eBB3",
         balance: "41.381442410775089207",
-        statús: "Lol !",
+        status: "Lol !",
         name: "Mr Bean",
         id: "mr_bean",
         owned_products: [0, 1, 4],
