@@ -26,4 +26,8 @@ app.get("/api/me", function (req, res) {
     res.send(payload[req.path]);
 });
 
+app.get("/api/game/1", function (req, res) {
+    res.send(payload[req.path]);
+});
+
 app.listen(8080);
