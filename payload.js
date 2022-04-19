@@ -3,10 +3,11 @@ import fs from "fs";
 const payload = {
     "/": {
     },
-    "/api/game/2DPM": {
-        lastest: '1.2.15',
-        compatible: '1.2.0',
+    "/api/game/0": {
+        lastest: '1.0.2',
+        compatible: '1.0.1',
         download: 'http://45.118.132.215:8080/2DPM.zip',
+        storage: 'http://45.118.132.215/fear_cdn/0/',
     },
     "/api/init": {
         games: [
@@ -15,10 +16,11 @@ const payload = {
                 name: "Clucking Hell",
                 splash: "https://placekitten.com/200/250?image=1",
                 splash_hash: "a85032fcba6a6392a35f5c2c87449730",
-                lastest: '1.2.15',
-                compatible: '1.2.0',
+                lastest: '1.0.2',
+                compatible: '1.0.0',
                 hidden: false,
                 maintenance: true,
+                location: 'http://45.118.132.215:8080/1',
             },
             {
                 id: 2,
@@ -71,10 +73,11 @@ const payload = {
                 name: "Clucking Hell",
                 preview: "https://placekitten.com/200/250?image=1",
                 preview_hash: "a85032fcba6a6392a35f5c2c87449730",
-                last_version: '1.2.15',
-                compatible_version: '1.2.0',
+                last_version: '1.0.2',
+                compatible_version: '1.0.0',
                 hidden: false,
-                maintenance: true,
+                maintenance: false,
+                storage: 'http://45.118.132.215/fear_cdn/0/',
             },
             {
                 id: 1,
@@ -85,6 +88,7 @@ const payload = {
                 compatible_version: '3.0.0',
                 hidden: false,
                 maintenance: false,
+                storage: 'http://45.118.132.215/fear_cdn/1/',
             },
             {
                 id: 2,
@@ -95,6 +99,7 @@ const payload = {
                 compatible_version: '1.14.50',
                 hidden: false,
                 maintenance: false,
+                storage: 'http://45.118.132.215/fear_cdn/2/',
             },
             {
                 id: 3,
@@ -105,6 +110,7 @@ const payload = {
                 compatible_version: '2.2.0',
                 hidden: false,
                 maintenance: false,
+                storage: 'http://45.118.132.215/fear_cdn/3/',
             },
             {
                 id: 4,
@@ -115,6 +121,7 @@ const payload = {
                 compatible_version: '0.1.0',
                 hidden: false,
                 maintenance: false,
+                storage: 'http://45.118.132.215/fear_cdn/4/',
             },
         ]
     },
