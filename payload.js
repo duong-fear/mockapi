@@ -78,7 +78,7 @@ const payload = {
                 hidden: false,
                 maintenance: false,
                 storage: 'http://45.118.132.215/fear_cdn/0/',
-                executable: 'Dummy Fear Game 1.exe', 
+                executable: 'Dummy Fear Game 1', 
             },
             {
                 id: 1,
@@ -90,7 +90,7 @@ const payload = {
                 hidden: false,
                 maintenance: false,
                 storage: 'http://45.118.132.215/fear_cdn/1/',
-                executable: 'Dummy Fear Game 1.exe',
+                executable: 'Dummy Fear Game 1',
             },
             {
                 id: 2,
@@ -102,7 +102,7 @@ const payload = {
                 hidden: false,
                 maintenance: false,
                 storage: 'http://45.118.132.215/fear_cdn/2/',
-                executable: 'Dummy Fear Game 1.exe',
+                executable: 'Dummy Fear Game 1',
             },
             {
                 id: 3,
@@ -114,7 +114,7 @@ const payload = {
                 hidden: false,
                 maintenance: false,
                 storage: 'http://45.118.132.215/fear_cdn/3/',
-                executable: 'Dummy Fear Game 1.exe',
+                executable: 'Dummy Fear Game 1',
             },
             {
                 id: 4,
@@ -126,7 +126,7 @@ const payload = {
                 hidden: false,
                 maintenance: false,
                 storage: 'http://45.118.132.215/fear_cdn/4/',
-                executable: 'Dummy Fear Game 1.exe',
+                executable: 'Dummy Fear Game 1',
             },
         ]
     },
