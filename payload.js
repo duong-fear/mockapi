@@ -138,6 +138,7 @@ const payload = {
         name: "Mr Bean",
         id: "mr_bean",
         owned_products: [0, 1, 4],
+        owned_wolves: [65, 2118],
         avatar: "https://placekitten.com/300/300",
         avatar_hash: "9efb03360374af06d044c9e7a7382e61",
         socials: {
